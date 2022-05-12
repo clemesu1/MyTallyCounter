@@ -4,8 +4,6 @@ import MaximizeIcon from "../images/maximize.png";
 import CloseIcon from "../images/close.png";
 import React from "react";
 
-const zeroPad = (num, places) => String(num).padStart(places, "0");
-
 export default function TallyCounter() {
   const [count, setCount] = React.useState("000000");
 
